@@ -13,15 +13,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 15px 15px 15px 15px; */
-    /* margin-top: 30px; */
-    /* width: 1069.9px; */
-    /* position: fixed;
-    z-index: 100; */
     top: 0; 
     left: 0;
     width: 100%;
-    /* padding: 2rem 10rem; */
+    
 
 
 }
@@ -54,40 +49,26 @@ body{
     background-color: #FF7143;
     color: white;
     font-weight: bold;
-    width: 211px;
-    height: 3rem;
-    top: 30px;
-    /* left: 1043px; */
-   
     border: none;
     border-radius: 7px;
     cursor: pointer;
+    padding: 15px 34px;
 
 
 }
 
 .maintext-onebox{
-    /* background-color: red; */
     display: flex;
-    /* gap: 2rem; */
     margin-top: 70px;
     justify-content: space-between;
     
-    /* top: 190px; */
-    /* left: 184px; */
-    /* opacity: 0px; */
-    /* height: 644px; */
-    /* width: auto; */
-
 
 }
    
 
 #maintext-one{
-    width: 50%;
-    /* height: 461px; */
-    /* margin: 40px 10px 5px 0px; */
-    /* background-color: bisque; */
+    width: 30%;
+   
     
 }
 
@@ -104,29 +85,22 @@ body{
 }
 
 #maintext-oneimg{
-    /* background-color: beige; */
     width: 50%;
    
  
-    /* width: 610px; */
-    /* height: 444px; */
-    /* margin: 40px 10px 5px 5px; */
+   
 }
 
 .maintext-one-bu-img{
     display: flex;
-    align-items: center;
-
-    
+    align-items: center;    
     gap: 2rem;
 }
 
 #maintext-one-button{
-    display: ;
     background-color: #5454D4;  
     color: white;
-    width: 210px;
-    height: 3rem;  
+    padding: 15px 34px;
     border: none;
     border-radius: 7px;
     cursor: pointer;
@@ -137,9 +111,9 @@ body{
     font-size: 20px;
 }
 
-.maintext-one-bu-img{
+/* .maintext-one-bu-img{
     pos
-}
+} */
 
 
 .maintext-one-bu-img img{
@@ -154,7 +128,6 @@ body{
 }
 
 .maintext-twobox{
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     margin-top: 5rem;
@@ -201,7 +174,7 @@ body{
 
 #text3{
     font-family: 'mulish';
-    width: 459px;
+    /* width: 459px; */
     font-size: 20px;
     
 }
@@ -396,35 +369,507 @@ span{
 
 }
 
-@media screen (max-width:0 480px) {
-    
+@media only screen and (max-width: 600px) {
     body{
-        padding: 1rem;
-    }
+        background-color: yellow;
+        padding: 0.5rem 1rem;
+    }    
     .nav-box{
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+
+    #nav-button{
+        background-color: #FF7143;
+        color: white;
+        font-weight: bold;
+        padding: 10px 16px;
+        border: none;
+        border-radius: 7px;
+        
+    
+    
+    }
+    .maintext-onebox{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        
+        
+    
+    }
+    #maintext-one h1{
+        font-family: 'Dm sans, Sans-serif';
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px
+    }
+       
+    #maintext-one{
+        width: 100%;
+    }
+    #maintext-oneimg{
+        width: 100%;
+        margin-top: 1rem;
+    
+    }
+    .maintext-one-bu-img{
+        display: flex;
+        align-items: center;    
+        gap: 0.5rem;
+    }
+    #maintext-one-button{
+        background-color: #5454D4;  
+        color: white;
+        padding: 15px 24px; 
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    .group-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 50px;
+    }
+    
+    .group-div img {
+        width: 60%;
+        
+        
+    }
+    .maintext-twobox{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    #maintext-twoimg{
+        width: 60%;
+    }
+    
+    #maintext-two{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    #maintext-two h2 {
+        font-weight: 500px;
+        font-size: 50px;
+        font-family: 'Dm sans, Sans-serif';
+        
+    
+    }
+    
+    #mt-tlink{
+        text-decoration: none;
+    
+    }
+    
+    #text2 {
+        font-family: 'mulish';
+        font-size: 20px;
+    }
+    .maintext-threebox{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        /* gap: 1rem; */
+    }
+    
+    #maintext-three {
+        margin-top: 80px;
+        width: 100%;
+    }
+    
+    /* #text3{
+        font-family: 'mulish';
+        width: 459px;
+        font-size: 20px;
+        
+    } */
+    
+    #mt-t3link{
+        text-decoration: none;
+    }
+    
+    #maintext-three h2{
+        font-weight: 500px;
+        font-size: 50px; 
+        font-family: 'Dm sans, Sans-serif';
+    
+    }
+
+    #maintext-threeimg{
+        width: 70px;
+
+    }
+    .maintext-fourdiv{
+        display: flex;
+        flex-direction: column;
+        margin: 60px 0 0 0;
+        align-items: center;
+    }
+    
+    .maintext-fourdiv p {
+        font-family: 'mulish';
+        font-size: 16px;
+    }
+    
+    #mt-4-one{
+        /* display: block; */
+        align-items: center;
+    
+    }
+    
+    #mt-4-oneh4{
+        text-align: center;
+        font-family: 'Dm sans, Sans-serif';
+        font-size: 2rem;
+        
+    
+    }
+    
+    .maintext-fourdiv p {
+        font-size: 1.5rem;
+    }
+    
+    #mt-4-two{
+        /* background-color: violet; */
+    }
+    
+    #mt-4-three{
+        /* background-color: tomato; */
+    }
+           
+    
+    #clDiv-one{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    
+    }
+
+    #clDiv-oneh1{
+    font-weight: 400px;
+    font-size: 40px;
+    width: 100%;
+
+    }
+
+    #clDiv-onebtn{
+    margin-top: 1rem;
+    display: flex;
+    
+    }
+
+
+    .clDiv-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    }
+
+    #clDiv-box1-a{
+    background: #F8F8F8;
+    width: 95%;
+    border: none;
+    text-align: center;
+    padding: 30px 0 0 0;
+    border-radius: 10px;
+    }
+
+    #clDiv-box1-b{
+    background-color: #FF7143;
+    width: 95%;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 30px 0 0 0;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+
+    }
+
+    #clDiv-box1-c{
+    background: #F8F8F8;
+    width: 95%;
+    border: none;
+    text-align: center;
+    padding: 30px 0 0 0;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+
+    }
+
+    #clbtn-1{
+    width: 210px;
+    height: 40px;  
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: blue;
+    margin: 30px 0 30px 0;
+    }
+
+    #clbtn-2{
+    width: 210px;
+    height: 40px;  
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background: #9F3919;
+    color: #F8F8F8;
+    margin: 30px 0 30px 0;
+    }
+
+    #clbtn-3{
+    width: 210px;
+    height: 40px;  
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: blue;
+    margin: 30px 0 30px 0;
+    }
+
+
+    #clDiv-h2{
+    font-size: 40px;
+    }   
+
+    span{
+    font-weight: 700px;
+    font-size: 50px;
+
+
+    } 
+}
+
+
+@media only screen and (min-width: 650px) and (max-width: 1100px) {
+
+    body{
+        background-color: #E7E9EB;
+        padding: 0.5rem 0.5rem;
+    }    
+    .nav-box{
+        background-color: rgb(227, 240, 236);
+        display: flex;
+        justify-content: space-around;
+        align-items: center
+        
+    }
+    #nav-button{
+        background-color: #FF7143;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 0.8rem 3rem;
+        border: none;
+        border-radius: 7px;    
+    
+    }
+    .maintext-onebox{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    
+    }
+    #maintext-one h1{
+        font-family: 'Dm sans, Sans-serif';
+        font-weight: 800px;
+        font-size: 65px;
+        
+    }
+    
+    #text1{
+        font-size: 35px;
+    }
+
+    #maintext-one{
+        width: 100%;
+    }
+    #maintext-oneimg{
+        width: 70%;
+        margin: 2rem 6rem 0 6rem;
+        
+    }
+    .maintext-one-bu-img{
+        display: flex;
+        align-items: center;    
+        gap: 0.5rem;
+
+    }
+    #maintext-one-button{
+        background-color: #5454D4;  
+        color: white;
+        padding: 1.2rem 3rem; 
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    .maintext-twobox{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    #maintext-twoimg{
+        width: 100%;
+        
+        
+    }
+    #maintext-twoimg img {
+        width: 60%;
+        margin-left: 6rem;
+    }
+    #maintext-two{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    #maintext-two h2 {
+        font-weight: 700px;
+        font-size: 70px;
+        font-family: 'Dm sans, Sans-serif';
+        
+    
+    }
+    
+    #mt-tlink{
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+    
+    }
+    
+    #text2 {
+        font-family: 'mulish';
+        font-size: 35px;
+    }
+    .maintext-threebox{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        
+    }
+    
+    #maintext-three {
+        margin-top: 2rem;
+        width: 100%;
+    }
+    
+    #text3{ 
+        font-family: 'mulish';
+        font-size: 35px;
+        
+    } 
+    
+    #mt-t3link{
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    #maintext-three h2{
+        font-weight: 700px;
+        font-size: 60px; 
+        font-family: 'Dm sans, Sans-serif';
+    
+    }
+
+    #maintext-threeimg{
+        width: 80%;
+
+    }
+    #maintext-threeimg img {
+        width: 70%;
+        margin-left: 8rem;
+    }
+    .maintext-fourdiv{
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 60px 0 0 0;
+        /* align-items: center; */
+    }
+    
+    .maintext-fourdiv p {
+        font-family: 'mulish';
+        font-size: 1.6rem;
+    }
+    
+    #mt-4-one{
+        /* display: block; */
+        /* align-items: center; */
+    
+    }
+    
+    #mt-4-oneh4{
+        text-align: center;
+        font-family: 'Dm sans, Sans-serif';
+        font-size: 2rem;
+        
+    
+    }
+    
+    .maintext-fourdiv p {
+        font-size: 1.5rem;
+    }
+    #clDiv-one{
+        /* background-color: aqua; */
         display: flex;
         justify-content: space-between;
-        align-items: center; 
+        margin: 70px 0 0 0;
+    
+    
     }
     
-    #nav-item{
+    #clDiv-oneh1{
+        font-weight: 700px;
+        font-size: 3.4rem;
+    
+    }
+    
+    #clDiv-onebtn{
+        margin: 60px 0 50px 0;
         display: flex;
-        font: bold;
-        font-family: 'DM Sans' sans-serif;
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 19.53px;
-        text-align: left;
-        gap: 3rem;
+        
+        
+    }
+    
+    #clDiv-onebtn1{
+        background-color: #5454D4;
+        color: white;
+        font-size: 16px;
+        /* padding: 10px 15px 10px 15px; */
+        border-radius: 7px 0 0 7px;
+        padding: 1rem 3rem;
+        border: none;
         cursor: pointer;
     
-}
-    
-@media screen (min-width:481 768) {
-    
-}
+    }
+    #clDiv-onebtn2{
+        font-size: 16px;
+        border-radius: 0 7px 7px 0;
+        padding: 1rem 3rem;  
+        border: none;
+        cursor: pointer;
+    }
+        
+       
     
 }
 
-/* the responsiveness start here */
+     
 
+/* Example for targeting tablets in landscape mode */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    /* Styles for tablets */
+}
